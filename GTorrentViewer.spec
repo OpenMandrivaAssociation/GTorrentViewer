@@ -101,7 +101,7 @@ rm -rf %buildroot
 %{_datadir}/GTorrentViewer/pixmaps/*
 %{_datadir}/pixmaps/*
 %{_datadir}/applications/gtorrentviewer.desktop
-%{_datadir}/man/man1/*
+%{_mandir}/man1/*
 %_menudir/%name
 %_liconsdir/%iconname.png
 %_miconsdir/%iconname.png
