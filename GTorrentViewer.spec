@@ -22,6 +22,7 @@ Source1:	%iconname-16.png
 Source2:	%iconname-32.png
 Source3:	%iconname.png
 
+BuildRoot: 	%_tmppath/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: gtk2-devel, curl-devel
 BuildRequires: perl(XML::Parser)
