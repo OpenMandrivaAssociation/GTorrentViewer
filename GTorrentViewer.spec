@@ -50,17 +50,6 @@ GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 %makeinstall_std
 %find_lang %name --with-gnome
 
 # menu
-mkdir -p %buildroot/%_menudir
-cat > %buildroot/%_menudir/%name << EOF
-?package(%name): \
-command="%_bindir/%runname" \
-needs="x11" \
-icon="%iconname.png" \
-section="%section" \
-title="%title" \
-longtitle="%Summary" \
-xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -101,7 +90,6 @@ rm -rf %buildroot
 %{_datadir}/pixmaps/*
 %{_datadir}/applications/gtorrentviewer.desktop
 %{_mandir}/man1/*
-%_menudir/%name
 %_liconsdir/%iconname.png
 %_miconsdir/%iconname.png
 %_iconsdir/%iconname.png
