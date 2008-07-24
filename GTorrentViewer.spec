@@ -1,7 +1,7 @@
 # gnochm.spec
 %define name GTorrentViewer
 %define version 0.2b
-%define release %mkrel 7
+%define release %mkrel 9
 
 %define Summary A torrent file viewer
 %define title	GTorrentViewer
