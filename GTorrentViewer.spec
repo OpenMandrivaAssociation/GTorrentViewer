@@ -15,7 +15,7 @@ Version: 	%version
 Release: 	%release
 License: GPL
 Group: 		Networking/Other
-URL: 		http://gtorrentviewer.sourceforge.net/
+URL: 		https://gtorrentviewer.sourceforge.net/
 
 Source: 	http://heanet.dl.sourceforge.net/sourceforge/gtorrentviewer/%name-%version.tar.bz2
 Source1:	%iconname-16.png
